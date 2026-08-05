@@ -114,7 +114,7 @@ export default function SignupPage() {
         >
           {/* transparent frosted card */}
           <motion.div
-            className="absolute top-[51%] right-[13%] md:right-[20%] -translate-y-1/2 w-full md:w-[340px] rounded-xl"
+            className="absolute top-[51%] right-[2%] md:right-[20%] -translate-y-1/2 w-full md:w-[340px] rounded-xl"
             variants={card}
             initial="hidden"
             animate="visible"

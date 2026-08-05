@@ -555,7 +555,7 @@ export default function QuizBox() {
                   transition={{ duration: 0.5 }}
                   className="absolute inset-0 flex items-center justify-center bg-black/50 z-50"
                 >
-                  <div className="bg-white p-6 rounded-2xl border-4 border-black shadow-[6px_6px_0px_#000] text-center">
+                  <div className="  bg-white p-3 rounded-2xl border-4 border-black shadow-[6px_6px_0px_#000] text-center">
                     <img src={showBadge.img} alt={showBadge.title} className="w-24 mx-auto mb-4 pixelated" />
                     <h2 className="text-2xl font-extrabold text-green-600">{showBadge.title}</h2>
                     <p className="mt-2 font-semibold">Unlocked!</p>
@@ -600,7 +600,7 @@ export default function QuizBox() {
             </AnimatePresence>
 
             {/* Header */}
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex items-center justify-between mb-8 relative md:right-[0%] right-[10%] ">
               <div className="text-sm font-bold px-3 py-1 border-2 border-black rounded-full bg-yellow-200 shadow-[3px_3px_0_#000]">
                 🌍 {CHAPTERS[chapterIndex].title} — Level {level + 1}/{LEVELS.length}
               </div>
