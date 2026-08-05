@@ -24,7 +24,6 @@ import WaterImg from "./assets/water-drop.png";
 import WindImg from "./assets/wind-turbine.png";
 import FinalLayout from "./components/FinalLayout";
 import Leaderboard from "./components/Leaderboard";
-import Lenisscroll from "./components/Lenisscroll";
 import Profile1 from "./components/Profile1";
 import ProfileSetupPage from "./components/ProfileSetupPage";
 import ProtectedRoute from "./components/ProtectedRoute";
@@ -58,7 +57,7 @@ export default function App() {
       {!hideLayout && <Header />}
 
       <main className="flex-grow">
-        <Lenisscroll />
+       
         <Routes>
           <Route
             path="/"

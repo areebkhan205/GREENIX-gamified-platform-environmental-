@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import SunCloudPng from "../assets/aqicloudsun.png"; // place your PNG at src/assets/aqicloudsun.png
 
 const OWM_KEY = import.meta.env.VITE_OWM_API_KEY || "";
-
+console.log("OWM KEY:", OWM_KEY);
 /* --- Simple AQI labels/advice for kids --- */
 function aqiLabelAndAdvice(aqi) {
   const map = {
